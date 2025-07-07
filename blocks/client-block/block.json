@@ -1,0 +1,20 @@
+{
+  "apiVersion": 2,
+  "name": "plugin/client-block",
+  "title": "Cliente destacado",
+  "category": "widgets",
+  "icon": "admin-users",
+  "description": "Muestra un cliente destacado con fondo personalizado.",
+  "attributes": {
+    "clientId": {
+      "type": "number"
+    },
+    "background": {
+      "type": "string",
+      "default": "#f9f9f9"
+    }
+  },
+  "editorScript": "file:./build/index.js",
+  "style": "file:./style.css",
+  "render": "render_featured_client"
+}

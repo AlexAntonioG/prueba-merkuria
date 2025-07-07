@@ -1,0 +1,14 @@
+# WordPress plugin
+*.log
+*.sql
+*.zip
+.DS_Store
+
+# Node
+node_modules/
+build/
+npm-debug.log*
+
+# IDEs
+.vscode/
+.idea/
